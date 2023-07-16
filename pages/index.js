@@ -1,9 +1,7 @@
 import Head from "next/head";
 import CoinFlip from "../components/CoinFlip/CoinFlip";
 import ThemeToggle from "../components/ThemeToggle";
-import DisableDevtool from 'disable-devtool';
 
-DisableDevtool();
 export default function Home() {
 
   return (
